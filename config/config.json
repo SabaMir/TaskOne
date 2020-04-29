@@ -1,0 +1,30 @@
+{
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "mobileerp",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  
+  "jwt":{
+    "passPhrase":"1234567890987654321"
+  }
+}
